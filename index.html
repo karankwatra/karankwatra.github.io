@@ -1,274 +1,318 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-
+<html lang="en"> 
 <head>
-	<title>Karan Kwatra</title>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!--    -->
-	<link rel="shortcut icon" href="k.png">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<!-- Global CSS -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-	<!-- Plugins CSS -->
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-	<link rel="stylesheet" href="assets/plugins/prism/prism.css">
-	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/styles-3.css">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <title>Karan Kwatra</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+       
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
 
-<body data-spy="scroll">
 
-	<!---//Facebook button code-->
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
+</head> 
 
-	<!-- ******HEADER****** -->
-	<header id="header" class="header">
-		<div class="container">
-			<h1 class="logo pull-left">
-                <a class="scrollto" href="#promo">
-                    <span class="logo-title">Karan Kwatra</span>
-                </a>
-            </h1>
-			<!--//logo-->
-			<nav id="main-nav" class="main-nav navbar-right" role="navigation">
-				<div class="navbar-header">
-					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-					<!--//nav-toggle-->
-				</div>
-				<!--//navbar-header-->
-				<div class="navbar-collapse collapse" id="navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-						<li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-						<li class="nav-item"><a class="scrollto" href="#projects">Projects</a></li>
-						<li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-					</ul>
-					<!--//nav-->
-				</div>
-				<!--//navabr-collapse-->
-			</nav>
-			<!--//main-nav-->
-		</div>
-	</header>
-	<!--//header-->
+<body>	
 
-	<!-- ******PROMO****** -->
-	<section id="promo" class="promo section offset-header">
-		<div class="container text-center">
-			<img class="headshot" src="./headshot.jpg" alt="">
-			<h2 class="title">Karan<span class="highlight">Kwatra</span></h2>
-			<p class="intro">Welcome! Feel free to contact me through any of the links below. Thanks for stopping by!</p>
-		</div>
-		<!--//container-->
-		<div class="social-container">
-			<a href="https://www.linkedin.com/in/karan-kwatra" class="btn-social btn-outline" target="_blank"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-linkedin"></i></a>
-			<a href="https://www.github.com/karankwatra" class="btn-social btn-outline" target="_blank"><span class="sr-only">Github</span><i class="fa fa-fw fa-github"></i></a>
-			<a href="mailto:kwatraka@umich.edu" class="btn-social btn-outline"><span class="sr-only">Mail</span><i class="fa fa-fw fa-envelope"></i></a>
-		</div>
-	</section>
-	<!--//promo-->
-
-	<!-- ******ABOUT****** -->
-	<section id="about" class="about section">
-		<div class="container">
-			<h2 class="title text-center">About Me</h2>
-			<p class="intro text-center">I am currently a computer science student at the University of Michigan College of Engineering. I have a passion for learning and I enjoy solving problems and creating elegant solutions. You can view my skills below.</p>
-			<div class="row">
-				<div class="item col-md-4 col-sm-6 col-xs-12">
-					<div class="icon-holder">
-						<i class="fa fa-code"></i>
+    <article class="resume-wrapper text-center position-relative">
+	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+		    <header class="resume-header pt-4 pt-md-0">
+			    <div class="media flex-column flex-md-row">
+				    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/headshot.jpg" alt="">
+				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+					    <div class="primary-info">
+						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Karan Kwatra</h1>
+						    <div class="title mb-3">Computer Science and Cognitive Science Student at University of Michigan</div>
+						    <ul class="list-unstyled">
+							    <li class="mb-2"><a href="mailto:kwatraka@umich.edu"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>kwatraka@umich.edu</a></li>
+							    <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>916 934 4363</a></li>
+						    </ul>
+					    </div><!--//primary-info-->
+					    <div class="secondary-info ml-md-auto mt-2">
+						    <ul class="resume-social list-unstyled">
+				                <li class="mb-3"><a href="https://www.linkedin.com/in/karan-kwatra/"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/karan-kwatra</a></li>
+								<li class="mb-3"><a href="https://github.com/karankwatra"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/karankwatra</a></li>
+								<li class="mb-3"><a href="https://medium.com/@karankwatra"><span class="fa-container text-center mr-2"><i class="fab fa-medium fa-fw"></i></span>medium.com/karankwatra</a></li>
+				                <li><a href="http://karankwatra.com"><span class="fa-container text-center mr-2"><i class="fas fa-globe"></i></span>karankwatra.com</a></li>
+								<a href="Resume.pdf" style="color:white;" target="_blank"><button style="margin-top:40px" class="btn btn-primary float-right">View my Resume</button></a>
+							</ul>
+					    </div><!--//secondary-info-->
+					    
+				    </div><!--//media-body-->
+			    </div><!--//media-->
+		    </header>
+		    <div class="resume-body p-5">
+					
+			    <section class="resume-section summary-section mb-5">
+						
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Summary</h2>
+				    <div class="resume-section-content">
+					    <p class="mb-0">Hello, welcome to my corner of the internet! My name is Karan I am currently an undergraduate student studying Computer Science and Cognitive Science at the University of Michigan. </p>
+						
 					</div>
-					<div class="content">
-						<h3 class="sub-title">Languages</h3>
-						<ul>
-							<li>C++</li>
-							<li>Python</li>
-							<li>C</li>
-							<li>Javascript</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Java</li>
-							<li>C#</li>
-							<li>SQL</li>
-							<li>Matlab</li>
-							<li>Verilog</li>
-						</ul>
-					</div>
-					<!--//content-->
-				</div>
-				<!--//item-->
-				<div class="item col-md-4 col-sm-6 col-xs-12">
-					<div class="icon-holder">
-						<i class="fa fa-folder"></i>
-					</div>
-					<div class="content">
-						<h3 class="sub-title">Software</h3>
-						<ul>
-							<li>Git</li>
-							<li>Bash</li>
-							<li>Angular.js</li>
-							<li>React</li>
-							<li>Node.js</li>
-							<li>PostgreSQL</li>
-							<li>AWS S3</li>
-							<li>socket.io</li>
-							<li>jQuery</li>
-							<li>Django</li>
-						</ul>
-					</div>
-					<!--//content-->
-				</div>
-				<!--//item-->
-				<div class="item col-md-4 col-sm-6 col-xs-12">
-					<div class="icon-holder">
-						<i class="fa fa-laptop"></i>
-					</div>
-					<div class="content">
-						<h3 class="sub-title">Operating Systems</h3>
-						<ul>
-							<li>Windows 10/8/7</li>
-							<li>Red Hat Enterprise Linux 7</li>
-							<li>Ubuntu Xenial Xerus</li>
-						</ul>
-					</div>
-					<!--//content-->
-				</div>
-				<!--//item-->
-			</div>
-			<a href="Karan_Resume_8_17.pdf" style="color:white;" target="_blank"><button class="btn btn-primary">View my Resum&eacute</button></a>
-			<!--//row-->
-		</div>
-		<!--//container-->
-	</section>
-	<!--//about-->
+			    </section><!--//summary-section-->
+			    <div class="row">
+				    <div class="col-lg-9">
+					    <section class="resume-section experience-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Experience</h2>
+						    <div class="resume-section-content">
+							    <div class="resume-timeline position-relative">
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Software Engineering Intern</h3>
+										        <div class="resume-company-name ml-auto">physIQ</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">May 2018 - August 2018 | Chicago, IL</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+											<ul>
+											    <li>Member of backend team on pinpointIQ, an FDA cleared, AI based personalized physiology platform. </li>
+											    <li>Responsible for writing automated integration tests in Cucumber against the pinpointIQ Python SDK. Integrated the test suite into Jenkins to run nightly. </li>
+											    <li>Created API/SDK documentation for the pinpointIQ backend. 
+														Generated API endpoint documentation from Swagger specification. 
+														Integrated the application with the build using Gradle to pull live resources and update documentation. Built in React. </li>
+											    <li>Developed a data import pipeline for a new sensor using serializtion
+														library Flatbuffers. Upon validation of the sensor, this import pipeline will 
+														be used in future releases. </li>
+										    </ul>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Gradle</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Cucumber</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Flatbuffers</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">React</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
 
-	<!-- ******FEATURES****** -->
-	<section id="projects" class="features section">
-		<div class="container text-center">
-			<h1 class="title">Projects</h1>
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Software Engineer</h3>
+										        <div class="resume-company-name ml-auto">Together Chicago</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">January 2018 - Present</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+												<ul>
+														<li>Selected to be on a student team of seven through University of Michigan Multidisciplinary Design Program. </li>
+														<li>Creating an open-source social asset data mapping tool for the city of Chicago. </li>
+														<li>Employed Agile methodology to build iterative prototypes and select technology stack.</li>
+													</ul>
+													<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Django</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PostgreSQL/PostGIS</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">React</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Leaflet</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Docker</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Heroku</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
 
-			<ul class="feature-list list-unstyled">
-				<section id="portfolio">
-					<div class="portfolio-item">
-                        <h3 class="title">ConcertTrack</h3>
-                        <a href="https://github.com/karankwatra/concerttrack" target="_blank"><h5 class="title">View the Repo Here</h5></a>
-						<a href="http://karankwatra.com/concerttrack" class="portfolio-link" data-toggle="modal" target="_blank">
-							<div class="caption">
-								<div class="caption-content">
-									<p class="project-description">
-                                        A web application using Google Maps, Bandsintown and Last.fm APIs. Built using Materialize and Angular.js.
-                                        <br />
-                                        The app allows users to search for artists and view their upcoming performances on a map.
-                                        Also includes venue information and links to buy tickets or view artist information.
-                                        <br>
-                                        <!-- <a href="github.com/karnakwatra/concerttrack">View the Repo Here</a> -->
-                                    </p>
-								</div>
-							</div>
-							<img id="concert-track-img" src="./concerttrack.gif" class="img-responsive" alt="Submarine">
-						</a>
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Technology Analyst</h3>
+										        <div class="resume-company-name ml-auto">Wolverine Blockchain</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">October 2017 - Present</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+												<ul>
+														<li>Presented at town hall event at Ross School of Business on use cases of blockchain technology, specifically its impact on supply chain management. </li>
+														<li>Researched and wrote articles on a variety of topics focused on distributed technology (https://medium.com/wolverineblockchain) </li>
+													</ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Research Assistant</h3>
+										        <div class="resume-company-name ml-auto">MSU Department of Micrbobiology </div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">January 2014 - August 2015</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+												<ul>
+														<li>CMEIAS is the Center for Microbial Ecology's Image Analysis Software.</li>
+														<li>Maintained application in C++ and added new functionality to Object and Cumulative Object Analysis modules of CMEIAS. </li>
+														<li>Coordinated a team of three programmers, working closely with researchers developing new analysis methods. Helped new programmers acquaint to the application.</li>
+														<li>Researched various mathematical and statistical projects associated with the
+																application in effort to introduce new capabilities to the application.</li>
+													</ul>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    
+							    </div><!--//resume-timeline-->
+							    
+							    
+							    
+							    
+							    
+							    
+						    </div>
+					    </section><!--//experience-section-->
 					</div>
-                    <div class="portfolio-item">
-                        <h3 class="title">Recess</h3>
-                        <a href="https://github.com/karankwatra/recess" target="_blank"><h5 class="title">View the Repo Here</h5></a>
-                        <a href="https://recesschat.herokuapp.com" class="portfolio-link" data-toggle="modal" target="_blank">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <p class="project-description">
-                                        A workplace solution for break-time location scheduling.<br />
-                                        Users can sign into an organization, message, check in, and reserve specific locations.<br>
-                                        Built using SemanticUI, Angular.js, Node.js, socket.io, and PostgreSQL.<br>
-                                    </P>
-                                </div>
-                            </div>
-                            <img id="recess-img" src="./recess.JPG" class="img-responsive" alt="Submarine">
-                        </a>
-                    </div>
-                    <div class="portfolio-item">
-                        <h3 class="title">Mithi Kalra Fashion Design</h3>
-                        <a href="https://github.com/DM6-KCW/kcw2" target="_blank"><h5 class="title">View the Repo Here</h5></a>
-                        <a href="https://mithikalra.herokuapp.com" class="portfolio-link" target="_blank">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <p class="project-description">
-                                        An ecommerce solution for a budding fashion designer.<br>
-                                        I communicated with the client and led a team of four developers.<br>
-                                        The site includes admin functionality to view orders and edit website content.<br>
-                                        Built using Bootstrap, React, Node.js, PostgreSQL, and AWS S3.<br>
-                                    </p>
-                                </div>
-                            </div>
-                            <img id="mithi-img" src="./mithikalra.JPG" class="img-responsive" alt="Submarine">
-                        </a>
-                    </div>
-				</section>
-			</ul>
-		</div>
-		<!--//container-->
-	</section>
-	<!--//features-->
-	<!-- ******CONTACT****** -->
-	<section id="contact" class="contact section has-pattern">
-		<div class="info text-center">
-			<h4 class="sub-title">Get Connected</h4>
-			<ul class="social-icons list-inline">
-				<li><a href="https://www.linkedin.com/in/karan-kwatra" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="https://github.com/karankwatra" target="_blank"><i class="fa fa-github"></i></a></li>
-				<li class="last"><a href="mailto:kwatraka@umich.edu"><i class="fa fa-envelope"></i></a></li>
-			</ul>
-		</div>
-		<!--//info-->
-	</section>
-	<!--//contact-->
+					
+				    <div class="col-lg-3">
+							
+					    <section class="resume-section skills-section mb-5">
+							
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <div class="resume-section-content">
+						        
+						        <div class="resume-skill-item">
+						            <!-- <h4 class="resume-skills-cat font-weight-bold">Others</h4> -->
+						            <ul class="list-inline">
+							            <li class="list-inline-item"><span class="badge badge-light">Python</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">C/C++</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Javascript</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Java</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">SQL</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Matlab</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Verilog</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Bash</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Django</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Flask</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Node.js</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">React</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Angular</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">AWS</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">GCP</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">PostgreSQL</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">MySQL</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Gradle</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Docker</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Cucumber(BDD)</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Flatbuffers</span></li>
+						            </ul>
+						        </div><!--//resume-skill-item-->
+						    </div><!--resume-section-content-->
+					    </section><!--//skills-section-->
+					    <section class="resume-section education-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-2">
+										<div class="resume-degree font-weight-bold">BSE in Computer Science</div>
+										<div class="resume-degree font-weight-bold">BS in Cognitive Science</div>
+								        <div class="resume-degree-org">University of Michigan</div>
+								        <div class="resume-degree-time">2015 - 2019 | Ann Arbor, MI</div>
+									</li>
+							
+							    </ul>
+						    </div>
+					    </section><!--//education-section-->
+					
+					    
+				    </div>
+				</div><!--//row-->
+				
 
-	<!-- ******FOOTER****** -->
-	<footer class="footer">
-		<div class="container text-center">
-			<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-			Created by Karan Kwatra
 
-		</div>
-		<!--//container-->
-	</footer>
-	<!--//footer-->
 
-	<!-- Javascript -->
-	<script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
+				<div class="row">
+						<div class="col-lg-9">
+							<section class="resume-section experience-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
+								<div class="resume-section-content">
+									<div class="resume-timeline position-relative">
+										<article class="resume-timeline-item position-relative pb-5">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">ConcertTrack</h3>
+													<!-- <div class="resume-company-name ml-auto">physIQ</div> -->
+												</div><!--//row-->
+												<div class="resume-position-time"><a href="http://karankwatra.com/concerttrack/#/">http://karankwatra.com/concerttrack/</a></div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<p>The app allows users to search for artists and view their upcoming performances on a map. Includes venue information
+														and links to buy tickets or view artist information.</p>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Angular</span></li>
+													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Google Maps API</span></li>
+													<li class="list-inline-item"><span class="badge badge-primary badge-pill">BandsInTown API</span></li>
+													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Last.fm API</span></li>
+													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Materialize CSS</span></li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+	
+										</article><!--//resume-timeline-item-->
+										
+										<article class="resume-timeline-item position-relative pb-5">
+											
+												<div class="resume-timeline-item-header mb-2">
+													<div class="d-flex flex-column flex-md-row">
+														<h3 class="resume-position-title font-weight-bold mb-1">Recess</h3>
+														<!-- <div class="resume-company-name ml-auto">physIQ</div> -->
+													</div><!--//row-->
+													<div class="resume-position-time"><a href="http://recesschat.herokuapp.com/">http://recesschat.herokuapp.com/</a></div>
+												</div><!--//resume-timeline-item-header-->
+												<div class="resume-timeline-item-desc">
+													<p>A workplace solution for break-time location scheduling. Users can sign into an organization, message, check in, and
+															reserve specific locations.  </p>
+													<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+													<ul class="list-inline">
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">Angular</span></li>
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">SemanticUI</span></li>
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">Node.js/span></li>
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">PostgreSQL</span></li>
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">socket.io</span></li>
+													</ul>
+												</div><!--//resume-timeline-item-desc-->
+		
+											</article><!--//resume-timeline-item-->
+							
+										
+										
+									</div><!--//resume-timeline-->
+									
+				
+
+
+		    </div><!--//resume-body-->
+		    
+		    
+	    </div>
+    </article>  
+
+    
+    <footer class="footer text-center pt-2 pb-5">
+	     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <!-- <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
+    </footer>
+
+    
+
 </body>
+</html> 
 
-</html>
